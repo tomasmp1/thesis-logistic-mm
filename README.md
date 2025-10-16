@@ -1,8 +1,6 @@
 # Optimising High-Dimensional Logistic Regression via MM
 
-**Exploring Majorisation–Minimisation (MM) for efficient, stable, and interpretable logistic regression in high-dimensional feature spaces.**  
-
-This project benchmarks **MM** against traditional optimisation methods, **Gradient Descent (GD)** and **Newton-Raphson (NR)**, on real-world financial data and synthetic datasets. It demonstrates convergence efficiency, numerical stability, and predictive performance in challenging high-dimensional settings.
+This project benchmarks **Majorisation–Minimisation (MM)** against traditional optimisation methods, **Gradient Descent (GD)** and **Newton-Raphson (NR)**, on real-world financial data and synthetic datasets. It demonstrates convergence efficiency, numerical stability, and predictive performance in challenging high-dimensional settings.
 
 ---
 
@@ -44,13 +42,3 @@ This project benchmarks **MM** against traditional optimisation methods, **Gradi
 | Optimisation Algorithms | Implements MM, GD, NR optimisers with support functions |
 | Implementation | Experiment configurations, trial execution, logging |
 | Analysis | Plots, convergence curves, feature importance, and synthetic dataset performance |
-
----
-
-## Reproducibility
-
-The notebook is fully self-contained:  
-
-- Preprocessed real-world data is included (`loan-data-preprocessed.npz`).  
-- Synthetic datasets are generated on-the-fly.  
-- All metrics, convergence analyses, and plots can be reproduced by running the notebook cells.  
