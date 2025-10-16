@@ -17,11 +17,11 @@ This project benchmarks **MM** against traditional optimisation methods, **Gradi
 
 ## Repository Contents
 
-├── notebooks/
-│   └── thesis-logistic-mm.ipynb           # Main notebook with all experiments and analysis
-├── data/
-│   └── loan-data-preprocessed.npz         # Preprocessed LendingClub loan dataset
-└── README.md                              # This file
+- `notebooks/`
+  - `thesis-logistic-mm.ipynb` : Main notebook with all experiments and analysis
+- `data/`
+  - `loan-data-preprocessed.npz` : Preprocessed LendingClub loan dataset
+- `README.md` : This file
 
 ---
 
